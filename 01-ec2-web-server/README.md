@@ -103,10 +103,14 @@ http://YOUR_INSTANCE_PUBLIC_IP
 ## 📸 Screenshots
 
 Document the following:
-- [ <img width="1433" height="808" alt="ec2 copy" src="https://github.com/user-attachments/assets/7922bb85-1889-4625-9959-1b3412eef59d" />] EC2 Dashboard showing running instance
-- [ <img width="1440" height="811" alt="Screenshot 2026-06-05 at 3 52 25 PM" src="https://github.com/user-attachments/assets/8125c579-2f1d-4962-bcbb-e6204c0908e5" />] Security Group rules
-- [<img width="1440" height="900" alt="SSH Terminal" src="https://github.com/user-attachments/assets/0f86d08f-230d-4178-8779-87e4c1ce1f7a" />] SSH connection to instance
-- [<img width="1433" height="856" alt="website output-ec2" src="https://github.com/user-attachments/assets/c8426f9e-c6eb-4293-8d8b-1b77322761dc" />] Web browser showing running web server
+- EC2 Dashboard showing running instance
+- [ <img width="1433" height="808" alt="ec2 copy" src="https://github.com/user-attachments/assets/7922bb85-1889-4625-9959-1b3412eef59d" />] 
+- Security Group rules
+- [ <img width="1440" height="811" alt="Screenshot 2026-06-05 at 3 52 25 PM" src="https://github.com/user-attachments/assets/8125c579-2f1d-4962-bcbb-e6204c0908e5" />] 
+- SSH connection to instance
+- [<img width="1440" height="900" alt="SSH Terminal" src="https://github.com/user-attachments/assets/0f86d08f-230d-4178-8779-87e4c1ce1f7a" />] 
+- Web browser showing running web server
+- [<img width="1433" height="856" alt="website output-ec2" src="https://github.com/user-attachments/assets/c8426f9e-c6eb-4293-8d8b-1b77322761dc" />] 
 
 ## 🏗️ Architecture
 
