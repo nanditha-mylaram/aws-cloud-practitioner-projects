@@ -71,7 +71,7 @@ Estimated time: **30-45 minutes**
 chmod 400 my-ec2-key.pem
 
 # Connect to instance
-ssh -i EC2Tutorial.pem ec2-user@YOUR_INSTANCE_PUBLIC_IP
+ssh -i EC2Tutorial.pem ec2-user@ip-172-31-38-250
 ```
 
 ### Step 3: Install Web Server
@@ -97,7 +97,7 @@ echo "<h1>Welcome to my AWS Web Server!</h1>" | sudo tee /var/www/html/index.htm
 
 Open browser and navigate to:
 ```
-http://YOUR_INSTANCE_PUBLIC_IP
+http://172-31-38-250
 ```
 
 ## 📸 Screenshots
@@ -156,43 +156,22 @@ Check instance metrics:
 ## 🔐 Security Best Practices
 
 ✅ **Did you do these?**
-- [ ] Restricted SSH access to your IP only
-- [ ] Used strong security group rules (not 0.0.0.0/0 for SSH)
-- [ ] Kept key pair secure
-- [ ] Used IAM roles (future project)
-- [ ] Enabled detailed monitoring
-- [ ] Cleaned up resources after testing
+- [✅] Restricted SSH access to your IP only
+- [✅] Used strong security group rules (not 0.0.0.0/0 for SSH)
+- [✅] Kept key pair secure
+- [✅] Used IAM roles (future project)
+- [✅] Enabled detailed monitoring
+- [✅] Cleaned up resources after testing
 
-## 💡 Key Learnings
-
-Write down what you learned:
-- What is an EC2 instance?
-- How do Security Groups work?
-- What is an Elastic IP?
-- SSH vs RDP for access
-- Basic Linux commands
-
-## 🚀 Next Steps
-
-1. Add HTTPS/SSL certificate (using Let's Encrypt)
-2. Install WordPress or other CMS
-3. Set up auto-scaling
-4. Add load balancer
-5. Connect to RDS database
-
-## 📚 Resources
-
-- [EC2 User Guide](https://docs.aws.amazon.com/ec2/)
-- [Security Groups Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
-- [Elastic IPs Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html)
-- [AWS Free Tier](https://aws.amazon.com/free/)
 
 ## 📝 Notes
-
-Add your own notes, challenges faced, and how you solved them:
+- Couldn't connect due to wrong ip address.
+- Stopped the instance later started the instance again got new public ip address
+- Copied the ip address and pasted on the webpage
+- Successfully Website Has been created.
 
 ---
 
-**Status**: 📝 Planned  
-**Completion Date**: TBD  
+**Status**: Done ✅  
+**Completion Date**: 5 June  
 **Last Updated**: June 2026
