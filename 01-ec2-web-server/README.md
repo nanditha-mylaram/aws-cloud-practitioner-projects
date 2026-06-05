@@ -24,7 +24,7 @@ Launch and configure an Amazon EC2 instance to host a simple web server. This pr
 
 ## 💰 Cost Estimate
 
-- **Instance Type**: t2.micro (Free Tier eligible)
+- **Instance Type**: t3.micro (Free Tier eligible)
 - **Monthly Cost**: ~$0.01 (or FREE with AWS Free Tier)
 - **Data Transfer**: Free (within free tier)
 - **Elastic IP**: Free (while associated with running instance)
@@ -49,14 +49,14 @@ Estimated time: **30-45 minutes**
 1. Go to [AWS Management Console](https://console.aws.amazon.com)
 2. Navigate to **EC2 Dashboard**
 3. Click **Launch Instances**
-4. **Name**: `my-web-server`
+4. **Name**: `My FirstInstance`
 5. **AMI**: Select "Amazon Linux 2 AMI" (Free Tier eligible)
-6. **Instance Type**: `t2.micro` (Free Tier eligible)
+6. **Instance Type**: `t3.micro` (Free Tier eligible)
 7. **Key Pair**: 
-   - Create new: `my-ec2-key`
+   - Create new: `EC2 Tutorial`
    - Download and save securely
 8. **Security Group**: Create new
-   - Name: `web-server-sg`
+   - Name: `launch-wizard-1`
    - Add inbound rules:
      - HTTP (80) from 0.0.0.0/0
      - HTTPS (443) from 0.0.0.0/0
@@ -71,7 +71,7 @@ Estimated time: **30-45 minutes**
 chmod 400 my-ec2-key.pem
 
 # Connect to instance
-ssh -i my-ec2-key.pem ec2-user@YOUR_INSTANCE_PUBLIC_IP
+ssh -i EC2Tutorial.pem ec2-user@YOUR_INSTANCE_PUBLIC_IP
 ```
 
 ### Step 3: Install Web Server
@@ -93,14 +93,7 @@ sudo systemctl enable httpd
 echo "<h1>Welcome to my AWS Web Server!</h1>" | sudo tee /var/www/html/index.html
 ```
 
-### Step 4: Assign Elastic IP (Optional)
-
-1. In EC2 Dashboard, click **Elastic IPs**
-2. Click **Allocate Elastic IP**
-3. Select your instance
-4. Click **Associate**
-
-### Step 5: Test Web Server
+### Step 4: Test Web Server
 
 Open browser and navigate to:
 ```
@@ -110,11 +103,10 @@ http://YOUR_INSTANCE_PUBLIC_IP
 ## 📸 Screenshots
 
 Document the following:
-- [ ] EC2 Dashboard showing running instance
-- [ ] Security Group rules
-- [ ] SSH connection to instance
-- [ ] Web browser showing running web server
-- [ ] Instance details page
+- [ <img width="1433" height="808" alt="ec2 copy" src="https://github.com/user-attachments/assets/7922bb85-1889-4625-9959-1b3412eef59d" />] EC2 Dashboard showing running instance
+- [ <img width="1440" height="811" alt="Screenshot 2026-06-05 at 3 52 25 PM" src="https://github.com/user-attachments/assets/8125c579-2f1d-4962-bcbb-e6204c0908e5" />] Security Group rules
+- [<img width="1440" height="900" alt="SSH Terminal" src="https://github.com/user-attachments/assets/0f86d08f-230d-4178-8779-87e4c1ce1f7a" />] SSH connection to instance
+- [<img width="1433" height="856" alt="website output-ec2" src="https://github.com/user-attachments/assets/c8426f9e-c6eb-4293-8d8b-1b77322761dc" />] Web browser showing running web server
 
 ## 🏗️ Architecture
 
