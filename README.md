@@ -5,8 +5,7 @@ A comprehensive collection of hands-on projects and labs for AWS Cloud Practitio
 ## 📚 About This Repository
 
 This repository documents my journey through the **AWS Cloud Practitioner certification** with real-world, hands-on projects. Each project demonstrates proficiency with key AWS services and cloud concepts.
-
-**Target Audience**: Beginners learning AWS cloud computing  
+  
 **Certification**: AWS Certified Cloud Practitioner  
 **Cloud Provider**: Amazon Web Services (AWS)
 
@@ -103,10 +102,10 @@ NN-project-name/
 
 ## 🛠️ Prerequisites
 
-- AWS Account (free tier recommended for learning)
+- AWS Account 
 - AWS Management Console access
 - Basic understanding of cloud computing concepts
-- Command line/Terminal experience (optional but helpful)
+- Command line/Terminal experience 
 
 ## 📖 How to Use This Repository
 
@@ -169,28 +168,7 @@ All projects are designed to fit within the **AWS Free Tier**. Each project incl
 
 ## 📝 Certification Goals
 
-- ✅ Understand AWS global infrastructure
-- ✅ Understand AWS core services
-- ✅ Understand AWS security and compliance
-- ✅ Understand AWS pricing and support
-
----
-
-## 🤝 Contributing
-
-This is a personal learning repository. Feel free to fork and adapt for your own learning journey!
-
----
-
-## 📧 Contact
-
-**GitHub**: [@nanditha-mylaram](https://github.com/nanditha-mylaram)
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
+- ✅ Understand AWS Cloud Practitioner 
 
 ---
 
