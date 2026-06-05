@@ -121,7 +121,7 @@ Internet
     |
 Security Group (Firewall)
     |
-EC2 Instance (t2.micro)
+EC2 Instance (t3.micro)
     |
 Apache Web Server
     |
